@@ -1,3 +1,4 @@
+/* Body */
 *{
     padding: 0px;
     margin: 0px;
@@ -10,7 +11,7 @@ body{
     background: #EDECE4;
     border: 10px solid #CBC6B9;
 }
-
+/* Main */
 main{
     margin: 50px 0px;
     display: flex;
@@ -48,7 +49,7 @@ span{
     border-radius: 12px;
     background-color: green;
 }
-/* www.origamid.com by html.to.design ❤️ FREE version - 17/02/2024, 11:52:16 GMT-3 */
+
 
 .textHours{
     width: 318px;
@@ -68,7 +69,7 @@ span{
 }
 
 .phone{
-    font-family: PT Mono;
+    font-family: 'PT Mono';
     font-size: 18px;
     font-weight: 400;
     font-size: 18px;
@@ -81,7 +82,7 @@ span{
 .barra{
     color: #2A2426;
     margin-top: 90px;
-    font-family: PT Mono;
+    font-family: 'PT Mono';
     font-size: 190px;
     font-weight: 600;
     line-height: 30px;
@@ -90,7 +91,7 @@ span{
 }
 
 
-
+/* Cardapio */
 main, article, section {
     margin: 50px auto;
     display: flex;
@@ -104,6 +105,7 @@ main, article, section {
 }
 
 .titleCardapio{
+    font-family: 'Aref Ruqaa';
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
@@ -284,7 +286,6 @@ footer p{
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    /* identical to box height, or 167% */
     margin-left: 18%;
 
     color: #EDECE4;
