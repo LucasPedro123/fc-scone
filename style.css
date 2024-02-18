@@ -2,18 +2,20 @@
     padding: 0px;
     margin: 0px;
 }
+
+
 body{
-    display: flex;
+    display: block;
     justify-content: center;
-    background: linear-gradient(0deg, #CBC6B9, #CBC6B9), linear-gradient(0deg, #EDECE4, #EDECE4);
+    background: #EDECE4;
     border: 10px solid #CBC6B9;
 }
 
 main{
+    margin: 50px 0px;
     display: flex;
-    width: 50%;
-    height: 876px;
-    border: 1px solid black;
+    width: 60vw;
+    height: 90vh;
 }
 
 main > div{
@@ -25,14 +27,15 @@ main > div{
     width: 50%;
 }
 .image2{
-    width: 50%;
-    height: 90vh;
+    border: 6px solid #CBC6B9;
+    width: 70%;
+    height:95%;
 }
 
-span > p{
-    font-family: PT Mono;
+ p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
-
+    font-weight: 500;
 }
 
 span{
@@ -68,12 +71,226 @@ span{
     font-family: PT Mono;
     font-size: 18px;
     font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
 
     color: #988C77;
     margin-top:40px;
 }
 
 .barra{
-    margin-top: 20px;
-    font-size: 11em;
+    color: #2A2426;
+    margin-top: 90px;
+    font-family: PT Mono;
+    font-size: 190px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    line-height: 30px;
+}
+
+
+
+main, article, section {
+    margin: 50px auto;
+    display: flex;
+    width: 60vw;
+    height: 90vh;
+}
+
+.ContainerCardapio {
+    width: 60vw;
+    
+}
+
+.titleCardapio{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #2A2426;
+}
+.contentCardapio{
+    margin-left: 5%;
+  
+
+}
+.titlesContent{
+    font-family: 'The Moonlight';
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 30px;
+    color: #2A2426;
+}
+.bordaTop{
+    margin-left: 30px;
+    width: 25%;
+    height: 14.5px;
+    border-bottom: #2A2426 solid 2px;
+}
+.lists{
+    margin: 10px 0px 50px 0px;
+}
+.cardapio p{
+    margin-left: -50px;
+    font-family: PT Mono;
+    font-size: 18px;
+    line-height: 35px;
+
+    color: #2A2426;
+}
+.pratos p{
+    margin-left: -60px;
+    font-family: PT Mono;
+    font-size: 18px;
+    line-height: 35px;
+
+    color: #2A2426;
+}
+em{
+    font-size: 0.9em;
+    font-weight: 500;
+    line-height: 35px;
+
+    color: #988C77;
+}
+
+li {
+    list-style-type: none;
+  }
+
+  .imagesPratos {
+    margin-top: 6%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagesPratos img {
+    width: 80%;
+    padding-bottom: 50%;
+    transition: opacity 0.3s ease; /* Adiciona uma transição de opacidade com duração de 0.3 segundos */
+}
+
+.imagesPratos img:hover {
+    opacity: 0.8; /* Reduz a opacidade da imagem quando o mouse está sobre ela */
+}
+
+
+
+
+
+/* Contato */
+.bordaContact{
+    margin-left: 15px;
+    width: 23%;
+    height: 14.5px;
+    border-bottom: #2A2426 solid 2px;
+}
+.contato{
+    
+}
+form{
+    width: 33vw;
+    margin-left: 18vw;
+}
+
+label{
+    font-size: 18px;
+    color: #2A2426;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+#email{
+    width: 50%;
+}
+.tel{
+    margin-left: 44%;
+}
+#tel {
+    width: 42.6%;
+    margin-left: 20px;
+}
+
+#name{
+    width: 100%;
+}
+.msg{
+    margin: 5px 0px;
+}
+
+#msg{
+    width: 100%;
+    height: 25vh;
+}
+input, textarea{
+    border: solid 2px #988C77;
+    height: 25px;
+}
+
+button {
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #988C77;
+    width: 200px;
+    height: 5vh;
+    background: rgba(255, 255, 255, 0.002);
+    border: 2px solid #988C77;
+    box-shadow: 5px 5px 0px -2px #CBC6B9, 5px 5px 0px #988C77;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d9d5cd;
+    color: #988C77; /* Altera a cor do texto no hover */
+    transform: translate(2px, 2px); /* Adiciona um leve deslocamento ao botão */
+    box-shadow: 2px 2px 0px -2px #CBC6B9, 2px 2px 0px #988C77; /* Modifica a sombra no hover */
+}
+
+
+.textContact{
+    margin-top: -10%;
+}
+form p{
+    color: #2A2426;
+}
+.textContact p{
+    text-align: end;
+    line-height: 30px;
+    color: #988C77;
+    font-size: 1em;
+}
+
+.mapPhoto{
+    margin-top: 10%;
+    width: 100%;
+    border: 5px solid #CBC6B9;
+}
+
+/* Footer */
+footer{
+    background: #2A2426;
+    box-shadow: 0px 0px 0px 10px #2A2426;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer p{
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    margin-left: 18%;
+
+    color: #EDECE4;
+
+}
+
+.iconFooter{
+    margin-left: 25%;
 }
