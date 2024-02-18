@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le Scone</title>
     <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <main>
         <div class="">
-            <img class="logo" src="/Image/logo.png" alt="">
+            <img class="logo" src="/fc-scone/Image/logo.png" alt="">
             <div class="paragrafo">
                 <span class="textHours">
                     <p>
@@ -39,7 +40,98 @@
                 ////
             </h1>
         </div>
-        <img class="image2" src="/Image/imageDemonstration.jpg" alt="">
+        <img class="image2" src="/fc-scone/Image/imageDemonstration.jpg" alt="">
     </main>
+    <article class="ContainerCardapio">
+        <h3 class="titleCardapio">MENU </h3>
+        <div class="bordaTop">
+        </div>
+        <div class="contentCardapio">
+            <h2 class="titlesContent">Entradas</h2>
+            <ul class="lists">
+                <li class="cardapio">
+                    <p><em>R$3,70</em> Ovos Mexidos</p>
+                </li>
+                <li class="cardapio">
+                    <p><em>R$3,70</em> Scones de Frutas</p>
+                </li>
+                <li class="cardapio">
+                    <p><em>R$3,70</em> Joelho de Queijo</p>
+                </li>
+                <li class="cardapio">
+                    <p><em>R$4,70</em> Presunto Cozido</p>
+                </li>
+                <li class="cardapio">
+                    <p><em>R$3,70</em> Coxinha de Frango</p>
+                </li>
+            </ul>
+            <h2 class="titlesContent">Pratos Principais</h2>
+            <ul class="lists">
+                <li class="pratos">
+                    <p><em>R$10,70 </em>Penne com Queijo</p>
+                </li>
+                <li class="pratos">
+                    <p><em>R$22,70 </em>Feijoada</p>
+                </li>
+                <li class="pratos">
+                    <p><em>R$33,70 </em>Costela ao Molho</p>
+                </li>
+                <li class="pratos">
+                    <p><em>R$14,70 </em> Medalhão de Frango</p>
+                </li>
+                <li class="pratos">
+                    <p><em>R$13,70 </em>Coxinha de Frango</p>
+                </li>
+            </ul>
+        </div>
+        <div class="imagesPratos">
+            <img src="/fc-scone/Image/prato-1.png.png" alt="">
+            <img src="/fc-scone/Image/prato-2.png" alt="">
+        </div>
+    </article>
+    <section class="contato">
+        <h3 class="titleCardapio">Contato</h3>
+        <div class="bordaTop">
+        <div>
+            <form action="">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name"  />
+
+                
+                <p for="email">E-mail  <label class="tel"for="tel">Telefone</label></p>
+               
+                <input type="email" name="email" id="email"  />
+
+                <input 
+                    type="tel" 
+                    name="tel" 
+                    id="tel"  
+                    placeholder="123-45-678"
+                    pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                >
+                
+
+                <p class="msg">Mensagem</p>
+                <textarea id="msg" name="msg" rows="4" cols="50"></textarea>
+
+                <button type="submit">Enviar</button>
+                <div class="textContact">
+                    <p>
+                        contato@lescone.com ////
+                    </p>
+                    <p>
+                           +55 021 2412-3333 ////
+                    </p>
+                </div>
+                <img class="mapPhoto" src="/fc-scone/Image/map.png" alt="">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>
+            Le Scone © 1989 - 2016. Alguns direitos reservados
+        </p>
+        <img class="iconFooter" src="/fc-scone/Image/iconFooter.png" alt="">
+    </footer>
 </body>
 </html>
