@@ -4,7 +4,6 @@
     margin: 0px;
 }
 
-
 body{
     display: block;
     justify-content: center;
@@ -27,10 +26,16 @@ main > div{
 .logo{
     width: 50%;
 }
-.image2{
+.image2 {
     border: 6px solid #CBC6B9;
     width: 70%;
-    height:95%;
+    height: 95%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.image2:hover {
+    transform: scale(1.05); /* Aumenta a escala da imagem em 5% */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
 }
 
  p{
@@ -61,7 +66,6 @@ span{
 .borda{
     margin: 10px 0px;
     border-bottom: 2px solid black;
-    
 }
 .paragrafo{
     width: 70%;
@@ -98,6 +102,7 @@ main, article, section {
     width: 60vw;
     height: 90vh;
 }
+
 
 .ContainerCardapio {
     width: 60vw;
@@ -170,12 +175,14 @@ li {
 .imagesPratos img {
     width: 80%;
     padding-bottom: 50%;
-    transition: opacity 0.3s ease; /* Adiciona uma transição de opacidade com duração de 0.3 segundos */
+    transition: transform 0.3s, filter 0.3s; /* Adicionamos uma transição para o filtro */
 }
 
 .imagesPratos img:hover {
-    opacity: 0.8; /* Reduz a opacidade da imagem quando o mouse está sobre ela */
+    transform: scale(1.05); /* Aumenta a escala da imagem em 5% */
+    filter: saturate(150%); /* Aumenta a saturação da cor em 150% */
 }
+
 
 
 
@@ -188,9 +195,7 @@ li {
     height: 14.5px;
     border-bottom: #2A2426 solid 2px;
 }
-.contato{
-    
-}
+
 form{
     width: 33vw;
     margin-left: 18vw;
@@ -295,3 +300,265 @@ footer p{
 .iconFooter{
     margin-left: 25%;
 }
+.contentCardapio p{
+    font-size: 1em;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        border: 5px solid #CBC6B9;
+    }
+
+    main {
+        flex-direction: column;
+        width: 90vw;
+        height: auto;
+    }
+    .paragrafo{
+        margin-left: 20%;
+    }
+    main > div {
+        width: 90%;
+    }
+
+    .logo {
+        width: 70%;
+        margin-left: 20%;
+    }
+    .phone{
+        margin-left: 20%;
+        margin-bottom: 20px;
+    }
+    .image2 {
+        margin-left: 15%;
+        width: 60%;
+
+        height: auto;
+    }
+
+    .barra {
+        display: none;
+    }
+    .bordaTop{
+        margin-left: 0px;
+        margin-bottom: 40px;
+        width: 150px;
+    }
+    .titlesContent{
+        text-align: center;
+    }
+
+    article, section {
+        width: 90vw;
+        margin: 30px auto;
+    }
+
+    .ContainerCardapio, .contato {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contentCardapio, form {
+        width: 90%;
+    }
+
+    .imagesPratos {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .imagesPratos img {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+
+    .contato {
+        margin-top: 450px;
+        padding: 20px; /* Adiciona algum espaço interno */
+    }
+
+    .titleCardapio {
+        text-align: center; /* Centraliza o título */
+    }
+
+    .form {
+        margin-top: 30px;
+        margin-left: -150px;
+        width: 85vw; /* Ocupa toda a largura do container */
+    }
+
+
+    .insputs label,
+    .insputs input,
+    .insputs textarea,
+    .insputs button,
+    .textContact {
+        width: 100%; /* Faz com que os elementos ocupem a largura total */
+        box-sizing: border-box; /* Inclui padding e border na largura total */
+        margin-bottom: 10px; /* Espaçamento entre os elementos */
+    }
+    .textContact{
+        margin-top: 20px;
+    }
+
+      #email{
+        width: 53%;
+    }
+
+    #tel{
+        width: 90px;
+    }
+
+    footer{
+        margin-top: 20%;
+    }
+}
+
+    
+footer {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 600px){
+    .article {
+        margin-bottom: 50%;
+        margin-right: auto;
+    }
+
+    footer{
+        margin-top: 25%;
+    }
+}
+@media only screen and (max-width: 280px){
+    main{
+        width: 100vw;
+    }
+    body{
+        width: 100vw;
+    }
+    form{
+        margin-left: 100px;
+    }
+}
+@media only screen and (max-width: 610px) and (min-width: 500px){
+    .form {
+        margin-left: -220px;
+        width: 85vw; /* Ocupa toda a largura do container */
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 600px){
+    article{
+        margin-bottom: 50%;
+    }
+    
+    .form {
+        
+        margin-left: -200px;
+        width: 55vw; /* Ocupa toda a largura do container */
+    }
+}
+/* Estilos adicionais para tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Ajuste a largura do contêiner principal */
+    body {
+        border: 5px solid #CBC6B9;
+    }
+
+    main {
+        flex-direction: column;
+        width: 90vw;
+        height: auto;
+    }
+    .paragrafo{
+        margin-left: 20%;
+    }
+    main > div {
+        width: 90%;
+    }
+
+    .logo {
+        width: 70%;
+        margin-left: 20%;
+    }
+    .phone{
+        margin-left: 20%;
+        margin-bottom: 20px;
+    }
+    .image2 {
+        margin-left: 15%;
+        width: 60%;
+
+        height: auto;
+    }
+
+    .barra {
+        display: none;
+    }
+    .bordaTop{
+        margin-left: 0px;
+        margin-bottom: 40px;
+        width: 150px;
+    }
+    .titlesContent{
+        text-align: center;
+    }
+
+    article, section {
+        width: 90vw;
+        margin: 30px auto;
+    }
+
+    .ContainerCardapio, .contato {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contentCardapio, form {
+        width: 90%;
+    }
+
+    .imagesPratos {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    article{
+        margin-bottom: 180px;
+    }
+    .contato{
+        margin-top: 60px;
+    }
+    .imagesPratos img {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    main {
+        width: 80vw;
+    }
+     .textContact{
+        margin-top: 20px;
+    }
+
+    .imagesPratos{
+        margin-top: 60px;
+        margin-right: -90px;
+    }
+    #email, #tel{
+        width: 43%;
+    }
+    .image2{
+        width: 50%;
+        height: 80%;
+    }
+    /* Ajuste a margem esquerda do formulário para centralizá-lo */
+    .form {
+        margin-top: 30px;
+        margin-left: -350px;
+        margin-right: auto;
+    }
+}
+
