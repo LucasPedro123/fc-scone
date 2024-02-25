@@ -22,7 +22,7 @@ Desenvolvido completamente com HTML5 e CSS3, o Le Scone apresenta um design eleg
  
 `1 - Clone o repositório`
 
-    git clone https://github.com/https://github.com/LucasPedro123/Portf-lio
+    git clone https://github.com/LucasPedro123/fc-scone
          
    
     

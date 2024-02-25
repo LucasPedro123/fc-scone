@@ -27,15 +27,14 @@ main > div{
     width: 50%;
 }
 .image2 {
-    border: 6px solid #CBC6B9;
-    width: 70%;
-    height: 95%;
+    width: 550px;
+    height: 660px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .image2:hover {
     transform: scale(1.05); /* Aumenta a escala da imagem em 5% */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
 }
 
  p{
@@ -100,7 +99,7 @@ main, article, section {
     margin: 50px auto;
     display: flex;
     width: 60vw;
-    height: 90vh;
+    height: 100vh;
 }
 
 
@@ -189,12 +188,7 @@ li {
 
 
 /* Contato */
-.bordaContact{
-    margin-left: 15px;
-    width: 23%;
-    height: 14.5px;
-    border-bottom: #2A2426 solid 2px;
-}
+
 
 form{
     width: 33vw;
@@ -559,6 +553,9 @@ footer {
         margin-top: 30px;
         margin-left: -350px;
         margin-right: auto;
+    }
+    .mapPhoto{
+        
     }
 }
 
