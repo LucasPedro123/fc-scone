@@ -1,13 +1,15 @@
 /* Body */
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body{
-    display: block;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     background: #EDECE4;
+    width: 100%;
     border: 10px solid #CBC6B9;
 }
 /* Main */
@@ -25,6 +27,11 @@ main > div{
 
 .logo{
     width: 50%;
+}
+
+.content-img-man{
+    display: flex;
+    justify-content: center;
 }
 .image2 {
     width: 550px;
@@ -154,7 +161,7 @@ main, article, section {
 }
 em{
     font-size: 0.9em;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 35px;
 
     color: #988C77;
@@ -297,7 +304,9 @@ footer p{
 .contentCardapio p{
     font-size: 1em;
 }
-
+.contato{
+    margin-top: -150px;
+}
 
 @media only screen and (max-width: 768px) {
     body {
@@ -344,8 +353,7 @@ footer p{
     }
 
     article, section {
-        width: 90vw;
-        margin: 30px auto;
+        width: 100%;
     }
 
     .ContainerCardapio, .contato {
@@ -358,13 +366,13 @@ footer p{
     }
 
     .imagesPratos {
-        margin-top: 20px;
         margin-left: 0;
+        margin-top: 10%;
     }
 
     .imagesPratos img {
         width: 100%;
-        padding-bottom: 20px;
+        padding-bottom: 50%;
     }
 
 
@@ -398,11 +406,11 @@ footer p{
     }
 
       #email{
-        width: 53%;
+        width: 55%;
     }
 
     #tel{
-        width: 90px;
+        width: 30%;
     }
 
     footer{
@@ -426,6 +434,11 @@ footer {
     footer{
         margin-top: 25%;
     }
+    .form {
+        
+        margin-left: -200px;
+        width: 55vw; /* Ocupa toda a largura do container */
+    }
 }
 @media only screen and (max-width: 280px){
     main{
@@ -444,17 +457,7 @@ footer {
         width: 85vw; /* Ocupa toda a largura do container */
     }
 }
-@media only screen and (max-width: 1024px) and (min-width: 600px){
-    article{
-        margin-bottom: 50%;
-    }
-    
-    .form {
-        
-        margin-left: -200px;
-        width: 55vw; /* Ocupa toda a largura do container */
-    }
-}
+
 /* Estilos adicionais para tablets */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     /* Ajuste a largura do contêiner principal */
@@ -554,7 +557,7 @@ footer {
         margin-left: -350px;
         margin-right: auto;
     }
-    .mapPhoto{
+    .contato{
         
     }
 }
