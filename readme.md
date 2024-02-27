@@ -3,7 +3,7 @@
 
 Bem-vindo ao site da Le Scone, onde a excelência culinária se encontra com o encanto do Rio de Janeiro.
 
-<img src="https://i.postimg.cc/1tFm8XrL/Captura-de-Tela-601.png">
+<img src="https://i.postimg.cc/Lsf0Z0TV/computer-of-lescone.png">
 
 ## Demo
 
