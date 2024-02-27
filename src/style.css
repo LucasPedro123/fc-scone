@@ -35,7 +35,7 @@ main > div{
 }
 .image2 {
     width: 550px;
-    height: 660px;
+    height: 700px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -74,7 +74,7 @@ span{
     border-bottom: 2px solid black;
 }
 .paragrafo{
-    width: 70%;
+    width: 62%;
     border-right: 2px solid black;
 }
 
@@ -91,9 +91,10 @@ span{
 
 .barra{
     color: #2A2426;
-    margin-top: 90px;
+
+    margin-top: 100px;
     font-family: 'PT Mono';
-    font-size: 190px;
+    font-size: 130px;
     font-weight: 600;
     line-height: 30px;
     text-align: left;
@@ -109,84 +110,85 @@ main, article, section {
     height: 100vh;
 }
 
-
 .ContainerCardapio {
     width: 60vw;
-    
 }
 
-.titleCardapio{
-    font-family: 'Aref Ruqaa';
+.titleCardapio {
+    font-family: 'PT Mono';
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 30px;
     color: #2A2426;
 }
-.contentCardapio{
-    margin-left: 5%;
-  
 
+.contentCardapio {
+    margin-left: 5%;
 }
-.titlesContent{
-    font-family: 'The Moonlight';
+
+.titlesContent {
+    font-family: 'Aref Ruqaa';
     font-size: 1.5em;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 30px;
     color: #2A2426;
 }
-.bordaTop{
+
+.bordaTop {
     margin-left: 30px;
     width: 25%;
     height: 14.5px;
     border-bottom: #2A2426 solid 2px;
 }
-.lists{
+
+.lists {
     margin: 10px 0px 50px 0px;
 }
-.cardapio p{
+
+ul {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.cardapio p,
+.pratos p {
+    font-family: 'PT Mono';
+    font-size: 18px;
+    line-height: 35px;
+    display: inline-block;
+    color: #2A2426;
+}
+
+em {
+    font-family: 'PT Mono';
     margin-left: -50px;
-    font-family: PT Mono;
-    font-size: 18px;
-    line-height: 35px;
-
-    color: #2A2426;
-}
-.pratos p{
-    margin-left: -60px;
-    font-family: PT Mono;
-    font-size: 18px;
-    line-height: 35px;
-
-    color: #2A2426;
-}
-em{
     font-size: 0.9em;
     font-weight: 600;
     line-height: 35px;
-
     color: #988C77;
 }
 
 li {
     list-style-type: none;
-  }
+}
 
-  .imagesPratos {
-    margin-top: 6%;
+.imagesPratos {
+    margin-top: 12%;
     margin-left: 10%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .imagesPratos img {
     width: 80%;
     padding-bottom: 50%;
-    transition: transform 0.3s, filter 0.3s; /* Adicionamos uma transição para o filtro */
+    transition: transform 0.3s, filter 0.3s;
 }
 
 .imagesPratos img:hover {
-    transform: scale(1.05); /* Aumenta a escala da imagem em 5% */
-    filter: saturate(150%); /* Aumenta a saturação da cor em 150% */
+    transform: scale(1.05);
+    filter: saturate(150%);
 }
 
 
@@ -414,7 +416,7 @@ footer p{
     }
 
     footer{
-        margin-top: 20%;
+        margin-top: 21%;
     }
 }
 
@@ -463,6 +465,7 @@ footer {
     /* Ajuste a largura do contêiner principal */
     body {
         border: 5px solid #CBC6B9;
+        width: 100%;
     }
 
     main {
@@ -530,7 +533,7 @@ footer {
     }
     .imagesPratos img {
         width: 100%;
-        padding-bottom: 20px;
+        padding-bottom: 40%;
     }
 
     main {
