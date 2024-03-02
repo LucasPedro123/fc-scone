@@ -26,7 +26,7 @@ main > div{
 }
 
 .logo{
-    width: 50%;
+    width: 201px;
 }
 
 .content-img-man{
@@ -34,6 +34,7 @@ main > div{
     justify-content: center;
 }
 .image2 {
+    margin-left: 25%;
     width: 550px;
     height: 700px;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -74,7 +75,7 @@ span{
     border-bottom: 2px solid black;
 }
 .paragrafo{
-    width: 62%;
+    width: 225px;
     border-right: 2px solid black;
 }
 
@@ -94,7 +95,7 @@ span{
 
     margin-top: 100px;
     font-family: 'PT Mono';
-    font-size: 130px;
+    font-size: 7em;
     font-weight: 600;
     line-height: 30px;
     text-align: left;
@@ -109,6 +110,8 @@ main, article, section {
     width: 60vw;
     height: 100vh;
 }
+
+
 
 .ContainerCardapio {
     width: 60vw;
@@ -153,7 +156,7 @@ ul {
 .cardapio p,
 .pratos p {
     font-family: 'PT Mono';
-    font-size: 18px;
+    font-size: 1em;
     line-height: 35px;
     display: inline-block;
     color: #2A2426;
@@ -162,7 +165,7 @@ ul {
 em {
     font-family: 'PT Mono';
     margin-left: -50px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: 600;
     line-height: 35px;
     color: #988C77;
@@ -306,8 +309,8 @@ footer p{
 .contentCardapio p{
     font-size: 1em;
 }
-.contato{
-    margin-top: -150px;
+.contato, .ContainerCardapio{
+    margin-top: 10%;
 }
 
 @media only screen and (max-width: 768px) {
